@@ -1,0 +1,41 @@
+// Function Signatures
+// To optionally specify argument types and/or sizes, search for "type"
+// and insert the appropriate specifiers inside the brackets. For example:
+//
+//    "type": ["double", "size=1,1"]
+//
+// To modify function or parameter help text, search for "purpose" and edit
+// the values.
+//
+// JSON-formatted text below this line.
+{
+    "_schemaVersion": "1.1.0",
+    "modelInformation": {
+        "inputs": [],
+        "outputs": [
+            {
+                "name": "modelInfoJSON",
+                "type": [],
+                "purpose": ""
+            }
+        ],
+        "purpose": ""
+    },
+    "predictFunction": {
+        "inputs": [
+            {
+                "name": "varargin",
+                "type": [],
+                "purpose": ""
+            }
+        ],
+        "outputs": [
+            {
+                "name": "result",
+                "type": [],
+                "purpose": ""
+            }
+        ],
+        "purpose": " #function fitctree\n  result = predictFunction(varargin)   returns prediction results using the model trained in Classification Learner R2024a\n \n   Input:\n       varargin: Input argument must be a matrix, whose 6 columns have the same order as the predictor variables that trained the deployed model.\n   Output:\n       result: Prediction results returned by the trained, deployed model\n"
+    }
+}
